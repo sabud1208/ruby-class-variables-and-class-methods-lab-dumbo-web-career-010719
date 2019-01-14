@@ -33,6 +33,7 @@ def self.genre_count
     genre_count[x] += 1 
   else 
     genre_count = 1 
+    binding.pry
   end
   end
 end

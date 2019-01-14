@@ -29,11 +29,12 @@ end
 def self.genre_count
   genres.each do |x|
     x||=[]
-  if genre_count[x]
-    genre_count[x] += 1 
+  genre_count[x]
+  if genre_count[x] 
+    
   else 
     genre_count = 1 
-    binding.pry
+ 
   end
   end
 end

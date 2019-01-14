@@ -28,8 +28,9 @@ end
 
 def self.genre_count
   genres.map do |x|
-    x
-  binding.pry
+    x = {}
+    x[genres]
+  end
 end
 
 end

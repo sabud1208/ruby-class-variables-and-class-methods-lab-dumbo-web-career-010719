@@ -34,7 +34,6 @@ if genre_count[x]
 else genre_count = 1
    end
   end
-  genre_count
 end
 
 end

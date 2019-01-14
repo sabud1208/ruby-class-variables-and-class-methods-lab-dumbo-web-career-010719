@@ -28,8 +28,7 @@ end
 
 def self.genre_count
   genres.map do |x|
-    x = {}
-    x[genres]
+    x 
   end
 end
 

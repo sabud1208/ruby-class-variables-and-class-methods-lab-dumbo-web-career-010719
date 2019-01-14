@@ -27,7 +27,7 @@ def self.genres
 end
 
 def self.genre_count
-  genres.map do |x|
+  genres.select do |x|
     x 
   end
 end

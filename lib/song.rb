@@ -6,7 +6,7 @@ attr_accessor :name, :artist, :genre
 def initialize(name, artist, genre)
   @name = name
   @artist = artists
-  @genre = genres
+  @genre = assert_generates
   @@count +=1
   
   # @@genres +=1

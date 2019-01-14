@@ -9,7 +9,7 @@ def initialize(name, artist, genre)
   @genre = genre
   @@count +=1
   @@artists << artist
-  @@genre_count << genre
+  @@genres << genre
    
 end
 

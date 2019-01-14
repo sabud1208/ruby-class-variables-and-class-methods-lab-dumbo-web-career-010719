@@ -28,6 +28,7 @@ end
 
 def self.genre_count
   genres.select do |x|
+    binding.pry
     x 
   end
 end

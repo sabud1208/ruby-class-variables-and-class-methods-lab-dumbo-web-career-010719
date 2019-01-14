@@ -8,8 +8,8 @@ def initialize(name, artist, genre)
   @artist = artists
   @genre = assert_generates
   @@count +=1
-  
-  # @@genres +=1
+  @@artist_count = {}
+  @@genre_count = {}
    
 end
 
